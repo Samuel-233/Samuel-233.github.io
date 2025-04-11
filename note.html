@@ -18,6 +18,7 @@
             max-width: 800px;
         }
         .grid-item {
+            position: relative;
             padding: 20px;
             border: 1px solid #333;
             border-radius: 10px;
@@ -28,11 +29,27 @@
             transition: transform 0.2s ease, box-shadow 0.2s ease;
             perspective: 1000px;
         }
+        .note-type {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1rem;
+            color: #007ced;
+            padding: 5px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .note-type i {
+            font-size: 1rem;
+            color: #939393;
+        }
         .grid-item:hover {
             transform: translateY(-10px);
             box-shadow: 0 8px 12px rgba(255, 255, 255, 0.2);
         }
-        .grid-item i {
+        .grid-item > i {
             font-size: 2rem;
             color: #007ced;
             margin-bottom: 10px;
@@ -82,46 +99,55 @@
                 <div class="Note-List">
                     <div class="grid-container">
                         <a href="assets/notes/CS2100Note.pdf" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-pdf"></i></span>
                             <i class="fa-solid fa-bar-chart"></i>
                             <h2>CS 2100</h2>
                             <p>discrete math</p>
                         </a>
                         <a href="assets/notes/CS2420Note.pdf" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-pdf"></i></span>
                             <i class="fa-solid fa-code"></i>
                             <h2>CS 2420</h2>
                             <p>Data structure</p>
                         </a>
                         <a href="#" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-code"></i></span>
                             <i class="fa-solid fa-microchip"></i>
                             <h2>CS3100</h2>
                             <p>Models Of Computation</p>
                         </a>
                         <a href="assets/notes/CS3130Note.pdf" class="grid-item">
-                            <i class="fa fa-calculator"></i>
+                            <span class="note-type"><i class="fa-solid fa-file-pdf"></i></span>
+                            <i class="fa-solid fa-gears"></i>
                             <h2>CS 3130</h2>
                             <p>probability & statistics</p>
                         </a>
                         <a href="assets/notes/CS3500Note.pdf" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-pdf"></i></span>
                             <i class="fa-solid fa-code"></i>
                             <h2>CS3500</h2>
                             <p>Software practice</p>
                         </a>
                         <a href="assets/notes/CS3505/Doker & Compile.html" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-code"></i></span>
                             <i class="fa-solid fa-code"></i>
                             <h2>CS3505</h2>
                             <p>Software practice II</p>
                         </a>
                         <a href="assets/notes/CS3810Note.pdf" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-pdf"></i></span>
                             <i class="fa-solid fa-microchip"></i>
                             <h2>CS3810</h2>
                             <p>Computer Organization</p>
                         </a>
                         <a href="#" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-code"></i></span>
                             <i class="fa-solid fa-microchip"></i>
                             <h2>CS4400</h2>
                             <p>Computer System</p>
                         </a>
                         <a href="#" class="grid-item">
+                            <span class="note-type"><i class="fa-solid fa-file-code"></i></span>
                             <i class="fa-solid fa-database"></i>
                             <h2>CS5530</h2>
                             <p>Database</p>
