@@ -222,7 +222,7 @@ nav .navlinks li a{
 /*---------------------------*/
 /* 时间轴整体布局 */
 .timeline {
-    width: 60%; /* 调整宽度以适应内容 */
+    width: 50%; /* 调整宽度以适应内容 */
     margin: 1px auto; /* 上下 100px，左右自动居中 */
     position: relative;
 }
@@ -251,7 +251,7 @@ nav .navlinks li a{
 .timeline-item::before {
     content: "";
     position: absolute;
-    left: 150px; /* 让竖线对齐 */
+    left: auto; /* 让竖线对齐 */
     top: 0;
     width: 2px;
     height: 100%;
@@ -260,7 +260,6 @@ nav .navlinks li a{
 
 /* 事件内容 */
 .timeline-content {
-    display: flex;
     align-items: center;
     width: 70%;
     gap: 20px;
