@@ -1,0 +1,74 @@
+[
+  {
+    "id": "event-2025-1",
+    "year": "2025",
+    "title": "Personal Website",
+    "description": "This website",
+    "image": "/images/Timeline/PersonalWebsite.jpg",
+    "link": "https://samuel-233.github.io/"
+  },
+  {
+    "id": "event-2024-1",
+    "year": "2024",
+    "title": "Built a Qt-based EduAPP",
+    "description": "Users can learn how to write Chinese characters and use the integrated ChatGPT to craft Chinese characters from radicals.",
+    "image": "/images/Timeline/EduAPP.jpg",
+    "link": "https://github.com/University-of-Utah-CS3505/a9-edu-app-f24"
+  },
+  {
+    "id": "event-2024-2",
+    "year": "2024",
+    "title": "A Simple Physical Engine",
+    "description": "Simulate physical animation by using spring-mass system",
+    "image": "/images/Timeline/Sim.jpg",
+    "link": "https://samuel-233.github.io/"
+  },
+  {
+    "id": "event-2024-3",
+    "year": "2024",
+    "title": "Built a Qt-based Pixel Art Tool",
+    "description": "Created a custom pixel editor with C++ and Qt, allowing advanced sprite editing.",
+    "image": "/images/Timeline/SpriteEditor.jpg",
+    "link": "https://github.com/University-of-Utah-CS3505/a8-sprite-editor-f24"
+  },
+  {
+    "id": "event-2024-4",
+    "year": "2024",
+    "title": "Built a Spread Sheet",
+    "description": "Users can input formula with dependence, and program can calculate the result or display warning. Data can save in XML format",
+    "image": "/images/Timeline/SpreadSheet.jpg",
+    "link": "https://github.com/Samuel-233/CS3500SpreadSheet"
+  },
+  {
+    "id": "event-2023-1",
+    "year": "2023",
+    "title": "RayTracing By Python",
+    "description": "A simple ray tracing program based on Python's Taichi library. Taichi allows computations to be performed on the GPU.",
+    "image": "/images/Timeline/RayTracing.jpg",
+    "link": "https://www.bilibili.com/video/BV1Bm4y1C7LT"
+  },
+  {
+    "id": "event-2023-2",
+    "year": "2023",
+    "title": "Houdini AI Rendering",
+    "description": "Get Houdini GL view's picture, and feed it to Stable Diffusion's ControlNet. It lets AI to render 3D objects.",
+    "image": "/images/Timeline/HouSD.jpg",
+    "link": "https://www.bilibili.com/video/BV1hs4y137WG"
+  },
+  {
+    "id": "event-2022-1",
+    "year": "2022",
+    "title": "Houdini Model to LEGO",
+    "description": "Turn any model in to LEGO blocks and blast them!",
+    "image": "/images/Timeline/LEGO.jpg",
+    "link": "https://www.bilibili.com/video/BV1rL4y1G7yA"
+  },
+  {
+    "id": "event-2021-1",
+    "year": "2021",
+    "title": "My First Project",
+    "description": "The place where dreams begin.",
+    "image": "/images/Timeline/dount.jpg",
+    "link": "https://samuel-233.github.io/"
+  }
+]
